@@ -34,9 +34,7 @@ The logging file will be saved in the path you set in the config file.
 
 * Elmah
 
-After installing the NuGet [package](https://www.nuget.org/packages/elmah/)
-
-add in configure method in startup.cs the following instruction:
+After installing the NuGet [package](https://www.nuget.org/packages/elmah/) add in configure method in startup.cs the following instruction:
 
 ```
 app.UseElmah();
