@@ -1,6 +1,6 @@
 # Net.Core Logging
 Two examples of logging in ASP.Net Core.
-At first, in program.cs file add the following code to set logging:
+At first, in program.cs file add the following code to set logging (this is my setting):
 
 ```
 public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
@@ -28,6 +28,9 @@ In the main procedure, instantiate the NLog, by indicating the Nlog config file:
   
 ```
 
+The logging file will be saved in the path you set in the config file. 
+
+
 
 * Elmah
 
@@ -38,3 +41,6 @@ add in configure method in startup.cs the following instruction:
 ```
 app.UseElmah();
 ```
+
+the link [https://localhost:44392/elmah](https://localhost:44392/elmah) is available to list logging.
+
