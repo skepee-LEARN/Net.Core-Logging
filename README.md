@@ -1,6 +1,6 @@
 # Net.Core Logging
 Two examples of logging in ASP.Net Core.
-In program.cs file add the following code to set logging:
+At first, in program.cs file add the following code to set logging:
 
 ```
 public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
