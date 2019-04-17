@@ -1,4 +1,4 @@
-# Core Logging
+# Net.Core Logging
 Two examples of logging in ASP.Net Core.
 In program.cs file add the following code:
 
