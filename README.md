@@ -42,5 +42,5 @@ add in configure method in startup.cs the following instruction:
 app.UseElmah();
 ```
 
-the link [https://localhost:44392/elmah](https://localhost:44392/elmah) is available to list logging.
+the link [https://yoururl/elmah](https://yoururl/elmah) is available to list logging.
 
