@@ -42,5 +42,5 @@ add in configure method in startup.cs the following instruction:
 app.UseElmah();
 ```
 
-The logging result will be shown in the link [https://yoururl/elmah](https://yoururl/elmah).
+The logging result will be shown in the page [https://yoururl/elmah](https://yoururl/elmah).
 
